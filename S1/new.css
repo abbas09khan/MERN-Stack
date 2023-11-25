@@ -1,0 +1,14 @@
+:root{
+    --mcol:black;
+    --tcol: white;
+
+}
+.nav{
+    display: flex;
+    border: 1px solid gray;
+    background-color: var(--mcol);
+    color: var(--tcol);
+}
+.item{
+    padding: 20px;
+}

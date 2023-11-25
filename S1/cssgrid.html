@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .child{
+            background-color: antiquewhite;
+            border: 2px solid rgb(146, 146, 192);
+            padding: 30px;
+        }
+        .parent{
+            height: 100vh;
+            display: grid;
+           /* grid-template-columns: 2fr 5fr 3fr;   */
+            grid-template-columns:repeat(2,1fr) ;
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: 20px;
+          }
+          @media  screen and (max-width :1000px) {
+            .parent{
+                grid-template-columns: repeat(4,1fr);
+            }
+            
+            @media  screen and (max-width :600px) {
+            .parent{
+                grid-template-columns: repeat(3,1fr);
+            }
+          }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">
+            <h1>child 1</h1>
+        </div>
+        <div class="child">
+            <h1>child 2</h1>
+        </div>
+        <div class="child">
+            <h1>child 3</h1>
+        </div>
+
+        <div class="child">
+                <h1>child 4</h1>
+            </div>
+       <div class="child">
+                <h1>child 5</h1>
+            </div>
+       <div class="child">
+                <h1>child 6</h1>
+            </div>
+    
+        </div>
+
+    </div>
+</body>
+</html>

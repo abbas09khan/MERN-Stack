@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .child{
+            background-color: antiquewhite;
+            border: 2px solid blue;
+            padding: 30px;
+        }
+
+        .parent{
+            height:100vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column-reverse;
+        }
+    </style>
+
+
+</head>
+<body>
+    <div class="parent">
+        <div class="child">
+            <h1>child 1</h1>
+        </div>
+        <div class="child">
+            <h1>child 2</h1>
+        </div>
+        <div class="child">
+            <h1>child 3</h1>
+        </div>
+
+    </div>
+</body>
+</html>

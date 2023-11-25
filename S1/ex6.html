@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      nav {
+        display: flex;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        align-items: center;
+        justify-content: space-around;
+      }
+      .right {
+        display: flex;
+      }
+      .right ul {
+        display: flex;
+        gap: 25px;
+      }
+      .right ul li {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+      }
+      .b1{
+        background-color: aqua;
+      }
+      .b2{
+        background-color: greenyellow;
+      }
+      .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 100px;
+        padding: 100px;
+      }
+      .box{
+        margin: 30px;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img
+          src="https://www.ultraedit.com/wp-content/uploads/2023/01/Dark-logo.png"
+          height="50px"
+        />
+      </div>
+      <div class="right">
+        <ul>
+          <li class="ab">
+            Products
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9"
+                stroke="#141B34"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </li>
+          <li class="ab">
+            Pricing
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9"
+                stroke="#141B34"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </li>
+          <li class="ab">
+            Resources
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9"
+                stroke="#141B34"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </li>
+          <li class="ab">
+            About Us
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9"
+                stroke="#141B34"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </li>
+          <img
+            class="ab"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Google_Translate_logo.svg/2048px-Google_Translate_logo.svg.png"
+            height="30px"
+          />
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="box box1">
+        English
+        <button class="b1">Download 32-bit</button>
+        <button class="b2">Download 64-bit</button>
+      </div>
+      <div class="box box2">
+        Deutsch German
+        <button class="b1">Download 32-bit</button>
+        <button class="b2">Download 64-bit</button>
+      </div>
+      <div class="box box3">
+        Italiano Italian
+        <button class="b1">Download 32-bit</button>
+        <button class="b2">Download 64-bit</button>
+      </div>
+      <div class="box box4">
+        Español Spanish
+        <button class="b1">Download 32-bit</button>
+        <button class="b2">Download 64-bit</button>
+      </div>
+      <div class="box box5">
+        français French <button class="b1">Download 32-bit</button>
+        <button class="b2">Download 64-bit</button>
+      </div>
+      <div class="box box6">
+        Português brasileiro Brazilian Portuguese
+        <button class="b1">Download 32-bit</button> 
+        <button class="b2">Download 64-bit</button>
+      </div>
+      <div class="box box7">
+        日本 Japanese <button class="b1">Download 32-bit</button>
+        <button class="b2">Download 64-bit</button>
+      </div>
+      <div class="box box8">
+        한국어 Korean <button class="b1">Download 32-bit</button>
+        <button class="b2">Download 64-bit</button>
+      </div>
+      <div class="box box9">
+        中国 Chinese <button class="b1">Download 32-bit</button>
+        <button class="b2">Download 64-bit</button>
+      </div>
+      <div class="box box10">
+        中國 Traditional Chinese
+        <button class="b1">Download 32-bit</button>
+        <button class="b2">Download 64-bit</button>
+      </div>
+    </div>
+  </body>
+</html>
